@@ -10,4 +10,4 @@ ENV EMAIL=1137254268@qq.com
 EXPOSE 5000
 # Run the app.  CMD is required to run on Heroku
 # $PORT is set by Heroku
-ENTRYPOINT ["sh", "-c", "/root/webapp/entrypoint.sh"]
+CMD ["sh", "-c", "/root/webapp/entrypoint.sh"]
